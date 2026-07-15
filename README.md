@@ -1,22 +1,68 @@
-# Flask-Feedback-Form
-A simple Flask web application that collects user feedback using HTML forms and Jinja2 templates.
+# Flask Feedback Form
+
+A simple Flask web application that collects user feedback using an HTML form and displays a personalized thank-you page using Jinja2 templates.
 
 ## Features
 
-- Feedback form
-- GET & POST requests
-- Jinja2 templates
-- Thank-you page
+- Accepts user feedback through an HTML form
+- Uses GET and POST HTTP methods
+- Displays a personalized thank-you page
+- Uses Jinja2 template rendering
+- Beginner-friendly Flask project
 
-## Technologies
+## Technologies Used
 
-- Python
+- Python 3
 - Flask
-- HTML
+- HTML5
 - Jinja2
 
-## Run
+## Project Structure
+
+```
+flask-feedback-form/
+│── app.py
+│── requirements.txt
+│── .gitignore
+│── README.md
+│
+└── templates/
+    ├── feedback.html
+    └── thank_you.html
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sagargs999/flask-feedback-form.git
+```
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
-python app/app.py
+```
+
+Run the application:
+
+```bash
+python app.py
+```
+
+Open your browser and visit:
+
+```
+http://127.0.0.1:5000/feedback
+```
+
+## Screenshots
+
+You can add screenshots of:
+- Feedback Form
+- Thank You Page
+
+## Author
+
+Sagar GS
