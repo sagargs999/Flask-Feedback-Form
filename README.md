@@ -23,10 +23,11 @@ A simple Flask web application that collects user feedback using an HTML form an
 flask-feedback-form/
 │── app.py
 │── requirements.txt
-│── .gitignore
 │── README.md
+│── .gitignore
 │
 └── templates/
+    ├── base.html
     ├── feedback.html
     └── thank_you.html
 ```
